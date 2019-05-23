@@ -1,11 +1,10 @@
 import React from 'react';
-import './Home.scss';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 interface Props {}
 export default class HomeScreen extends React.Component<Props> {
   render() {
-    return ( <View>Is Working!</View> ) 
+    return ( <Text>Is Working!</Text> ) 
   }
 }
 
